@@ -1,0 +1,21 @@
+
+spring:
+  redis:
+    database: 10
+    host: 192.168.1.108
+    port: 6379
+    # password:
+    # 超时时间
+    timeout: 1000ms
+    lettuce:
+      pool:
+        # ���ӳ������������ʹ�ø�ֵ��ʾû�����ƣ�
+        max-active: 200
+        # ���ӳ��е�����������
+        max-idle: 20
+        # ���ӳ��е���С��������
+        min-idle: 0
+        # ���ӳ���������ȴ�ʱ�䣨ʹ�ø�ֵ��ʾû�����ƣ�
+        max-wait: 500ms
+
+
