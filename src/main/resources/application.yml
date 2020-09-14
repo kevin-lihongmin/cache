@@ -7,6 +7,8 @@ spring:
     # password:
     # 超时时间
     timeout: 1000ms
+    redisson:
+      config: classpath:redisson-single.yml # 配置单点模式
     lettuce:
       pool:
         # ���ӳ������������ʹ�ø�ֵ��ʾû�����ƣ�
